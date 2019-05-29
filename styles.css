@@ -1,0 +1,147 @@
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.login {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: 40%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.container {
+    align-self: center;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.myButton input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+
+.myButton input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.myButton {
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.logout {
+    width: 10%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 1px;
+}
+
+.col-25 {
+
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+}
+
+.col-50 {
+
+    float: left;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.userRow {
+    color: #ff0000;
+    margin: auto;
+    text-align: left;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#table p {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
